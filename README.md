@@ -59,13 +59,13 @@ Create a folder named `uploads` (or the folder defined in `folderPath` inside yo
 ### 4. Start the server
 
 ```bash
-node index.js
+node server.js
 ```
 
 ### 5. Open in your browser
 
 ```
-http://localhost:3000/imagenes
+http://localhost:3000
 ```
 
 ## Project Structure
