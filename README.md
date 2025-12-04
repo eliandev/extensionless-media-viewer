@@ -1,8 +1,10 @@
-# Lost Media Recovery Server
+# ExtensionLess Media Viewer
 
 ## Overview
 
-This project is a lightweight Node.js server designed to recover, detect, and display photos and videos that have no file extension, which commonly occurs with:
+A lightweight Node.js server that automatically detects and displays photos and videos without file extensions. Perfect for recovering media from Snapchat exports, Android backups, and app cache files.
+
+This commonly occurs with:
 
 - Snapchat exports or cache files
 - Android device backups
@@ -132,7 +134,7 @@ The `/imagenes` endpoint gives you the metadata you need to render a gallery.
 
 ```html
 <video controls>
-  <source src="http://localhost:3000/archivo/78910" type="video/mp4" />
+  <source src="http://localhost:3000/archivo/78910" type="video/mp4">
 </video>
 ```
 
